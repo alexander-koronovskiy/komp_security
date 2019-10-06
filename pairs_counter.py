@@ -25,7 +25,7 @@ size = 2
 
 new_words_pairs = chunk(new_words_unit, size)  # chunk string
 new_words_pairs = [''.join(i) for i in new_words_pairs if len(i) == size]  # filter single chars
-dictionary = Counter(new_words_pairs)
+dictionary = Counter(new_words_pairs); # print(dictionary)
 a = sum(list(dictionary.values()))
 t = list(dictionary.values())
 for i in range(len(t)):
@@ -33,4 +33,4 @@ for i in range(len(t)):
 b = list(dictionary.keys())
 for i in range(len(t)):
     dictionary[b[i]] = round(t[i], 3)
-print(sorted(dictionary.items(), key=lambda x: x[1], reverse=True))
+print(dictionary)
