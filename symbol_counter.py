@@ -10,12 +10,16 @@ def insertText():
     f.close()
     return s
 
-
 a = insertText()
 dictionary = {}
 for key1, value in Counter(a.lower()).items():
     if key1.isalpha():
         dictionary[key1] = value
-
-messagebox.showinfo('result',
-                    sorted(dictionary.items(), key=lambda x: x[1], reverse=True))
+a = sum(list(dictionary.values()))
+t = list(dictionary.values())
+for i in range(len(t)):
+    t[i] = t[i] / a
+b = list(dictionary.keys())
+for i in range(len(t)):
+    dictionary[b[i]] = round(t[i], 3)
+print(sorted(dictionary.items(), key=lambda x: x[1], reverse=True))
