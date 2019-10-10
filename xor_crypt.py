@@ -1,31 +1,19 @@
+def xor_it(str, key):
+    code = ''
+    y = 0
+    for i in range(0, len(str)):
+        if y == len(key): y = 0
+        code += chr(ord(str[i:i + 1]) ^ ord(key[y:y + 1]))
+        y += 1
+    return code
+
+
 my_file = open("text.txt")
 text = my_file.read()
-key = 15
+key = "tetris"
 
-# Шифрование
-# A = 65 ASCII
-# B = 66
-# C = 67 ...
-
-crypt = ""
-for i in text:
-	try:
-		crypt += chr(ord(i) ^ ord(key))
-	except TypeError:
-		crypt += chr(ord(i) ^ key)
-
-with open("crypt.txt", "w") as file:
-	file.write(crypt)
-print('после шифрования:')
+crypt = xor_it(text, key)
 print(crypt, '\n')
 
-# Расшифрование
-decrypt = ""
-with open("crypt.txt", "r") as file:
-	for j in file.read():
-		try:
-			decrypt += chr(ord(j)^ord(key))
-		except TypeError:
-			decrypt += chr(ord(j)^key)
-print('после расшифрования:')
-print(decrypt)
+decrypt = xor_it(crypt, key)
+print(decrypt, '\n')
