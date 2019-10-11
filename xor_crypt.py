@@ -1,3 +1,4 @@
+# алгоритм шифрования
 def xor_it(str, key):
     code = ''
     y = 0
@@ -8,12 +9,15 @@ def xor_it(str, key):
     return code
 
 
+# чтение текста и задание ключа шифра
 my_file = open("text.txt")
 text = my_file.read()
-key = "tetris"
+key = "archer"
 
+# шифрование
 crypt = xor_it(text, key)
 print(crypt, '\n')
 
+# дешифровка
 decrypt = xor_it(crypt, key)
 print(decrypt, '\n')
