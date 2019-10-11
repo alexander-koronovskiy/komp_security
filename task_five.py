@@ -1,7 +1,7 @@
 def enc(text):
     s = list()
     for i in text:
-        s.append(bin(ord(i))[2:].count('1') * '_')
+        s.append(bin(ord(i))[2:].count('0') * 'c')
     return s
 
 
@@ -21,12 +21,12 @@ with open(r"lines.txt", "w") as file:
 s1 = ''
 with open(r"lines.txt", "r") as file:
     for line in file:
-        s1 = s1 + str(line.count('_'))
+        s1 = s1 + str(line.count('c'))
 
 # шифрование всего текста
 s2 = ''
 for i in text:
-    s2 = s2 + str(bin(ord(i))[2:].count('1'))
+    s2 = s2 + str(bin(ord(i))[2:].count('0'))
 
 # поиск подстроки
 i = s2.find(s1)
