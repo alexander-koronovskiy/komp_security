@@ -8,27 +8,28 @@ def enc(text):
 # чтение исходного текста
 my_file = open("text.txt")
 text = my_file.read()
+text0 = text
+
+# счетчик строк
+i_r = list()
+for i in range(len(text)):
+    if text[i] == '\n':
+        i_r.append(i)
 
 # шифрование фразы (т.е. скрытой части текста)
-phrase = text[60:244]
+phrase = text[60:68]
 phrase_crypt = enc(phrase)
 
-# запись шифрованной фразы
-with open(r"lines.txt", "w") as file:
-    file.writelines("%s\n" % line for line in phrase_crypt)
-
-# чтение зашифрованного файла
-s1 = ''
-with open(r"lines.txt", "r") as file:
-    for line in file:
-        s1 = s1 + str(line.count('_'))
-
-# шифрование всего текста
-s2 = ''
-for i in text:
-    s2 = s2 + str(bin(ord(i))[2:].count('1'))
-
-# поиск подстроки
-i = s2.find(s1)
-j = i + len(s1)
-print(text[i:j])
+# добавление шифра в исхдный файл
+s1 = ''; j = 0; p = 0; k = 0
+if len(phrase_crypt) >= len(i_r):
+    for i in range(len(text)):
+        if i in i_r:
+            s1 = s1 + text[j:i] + phrase_crypt[p]
+            j = i
+            p = p + 1
+    blocks = phrase_crypt[p:]
+    for k in range(len(blocks)):
+        s1 = s1 + '\n' + blocks[k]
+# обработка на случай len(phrase_crypt) < len(i_r)
+print(s1)

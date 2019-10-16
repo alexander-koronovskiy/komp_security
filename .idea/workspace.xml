@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba3fcba8-6ad1-4d2e-8245-edc8d72a6271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task_six.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lines.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lines.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pairs_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/pairs_counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbol_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbol_counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_four.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_four.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xor_crypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/xor_crypt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,43 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/symbol_counter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task_six.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pairs_counter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xor_crypt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="275">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -62,8 +28,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task_four.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="364">
+              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../вейвлеты/intro_matlab.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../вейвлеты/haar_wavelet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task_five.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="289">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -100,18 +87,21 @@
         <option value="$PROJECT_DIR$/../../I семестр/sync/accessory/wavelet.py" />
         <option value="$PROJECT_DIR$/../вейвлеты/morlet.py" />
         <option value="$PROJECT_DIR$/../вейвлеты/haar.py" />
-        <option value="$PROJECT_DIR$/../вейвлеты/haar_wavelet.py" />
-        <option value="$PROJECT_DIR$/task_four.py" />
         <option value="$PROJECT_DIR$/task_five.py" />
         <option value="$PROJECT_DIR$/task_six.py" />
         <option value="$PROJECT_DIR$/symbol_counter.py" />
         <option value="$PROJECT_DIR$/pairs_counter.py" />
+        <option value="$PROJECT_DIR$/../вейвлеты/haar_wavelet_base.py" />
         <option value="$PROJECT_DIR$/xor_crypt.py" />
+        <option value="$PROJECT_DIR$/../вейвлеты/intro_matlab.py" />
+        <option value="$PROJECT_DIR$/../вейвлеты/haar_wavelet.py" />
+        <option value="$PROJECT_DIR$/task_four.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="640" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1155" />
     <option name="height" value="985" />
   </component>
@@ -121,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,10 +122,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/task_six.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../вейвлеты/intro_matlab.py" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -151,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xor_crypt">
+  <component name="RunManager" selected="Python.task_four">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="комп_без" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,40 +184,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pairs_counter" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="intro_matlab" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="комп_без" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Alexander\Anaconda3\envs\sync\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="C:\Users\Alexander\Anaconda3\envs\MyTest.py\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../вейвлеты" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pairs_counter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="symbol_counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="комп_без" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Alexander\Anaconda3\envs\sync\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/symbol_counter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../вейвлеты/intro_matlab.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,41 +268,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xor_crypt" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="комп_без" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Alexander\Anaconda3\envs\sync\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xor_crypt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.haar_wavelet" />
-      <item itemvalue="Python.pairs_counter" />
-      <item itemvalue="Python.xor_crypt" />
+      <item itemvalue="Python.intro_matlab" />
       <item itemvalue="Python.task_four" />
       <item itemvalue="Python.task_five" />
       <item itemvalue="Python.task_six" />
-      <item itemvalue="Python.symbol_counter" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.symbol_counter" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -349,15 +290,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="840" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14606741" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08526107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42090395" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3121469" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,13 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../вейвлеты/morlet.py" />
     <entry file="file://$PROJECT_DIR$/../вейвлеты/haar.py" />
-    <entry file="file://$PROJECT_DIR$/../вейвлеты/WorkWFiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../вейвлеты/WorkWFiles.py" />
     <entry file="file://$PROJECT_DIR$/../../I семестр/sync/ExtendedAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
@@ -418,20 +353,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../вейвлеты/haar_wavelet.py">
+    <entry file="file://$PROJECT_DIR$/../вейвлеты/haar_wavelet_base.py" />
+    <entry file="file://$PROJECT_DIR$/pairs_counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="291">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_six.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -445,34 +374,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pairs_counter.py">
+    <entry file="file://$PROJECT_DIR$/xor_crypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xor_crypt.py">
+    <entry file="file://$PROJECT_DIR$/task_six.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task_five.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="289">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../вейвлеты/haar_wavelet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../вейвлеты/intro_matlab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task_four.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="364">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>

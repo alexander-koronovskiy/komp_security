@@ -22,7 +22,7 @@ for line in lines:
                      .replace('\n', '').replace('-', ' ').replace(" ", "").replace("?", "")
                      .replace(",", "").replace("!", ""))
 
-# рассчет относительной частоты встречаемости
+# рассчет абсолютной частоты встречаемости
 new_words_unit = ''.join(new_words)
 size = 2
 new_words_pairs = chunk(new_words_unit, size)  # chunk string
