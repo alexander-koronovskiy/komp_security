@@ -1,3 +1,6 @@
+PHRASE = "скоро выйдет новая часть"
+
+# алгоритм шифрования
 def enc(text):
     s = list()
     for i in text:
@@ -5,33 +8,27 @@ def enc(text):
     return s
 
 
-# чтение исходного текста
-my_file = open("text.txt")
-text = my_file.read()
-text0 = text
+# алгоритм "стенографии"
+def sten():
 
-# счетчик строк
-i_r = list()
-for i in range(len(text)):
-    if text[i] == '\n':
-        i_r.append(i)
+    # текст
+    my_file = open("text.txt")
+    text = my_file.read()
 
-# шифрование фразы (т.е. скрытой части текста)
-phrase = text[60:62]
-phrase_crypt = enc(phrase)
+    # шифрованнная фраза
+    phrase = PHRASE
+    phrase_crypt = enc(phrase)
 
-# добавление шифра в исхдный файл
-s1 = ''; j = 0; p = 0; k = 0
-if len(phrase_crypt) >= len(i_r):
+    # счетчик строк в тексте
+    i_r = list()
     for i in range(len(text)):
-        if i in i_r:
-            s1 = s1 + text[j:i] + phrase_crypt[p]
-            j = i
-            p = p + 1
-    blocks = phrase_crypt[p:]
-    for k in range(len(blocks)):
-        s1 = s1 + '\n' + blocks[k]
-if len(phrase_crypt) < len(i_r):
+        if text[i] == '\n':
+            i_r.append(i)
+
+    # добавление шифра в исходный файл
+    s1 = ''
+    j = 0
+    p = 0
     for i in range(len(text)):
         if i in i_r:
             s1 = s1 + text[j:i] + phrase_crypt[p]
@@ -40,4 +37,30 @@ if len(phrase_crypt) < len(i_r):
             if p == len(phrase_crypt):
                 s1 = s1 + text[j:]
                 break
-print(s1)
+    if len(phrase_crypt) >= len(i_r):
+        blocks = phrase_crypt[p:]
+        for k in range(len(blocks)):
+            s1 = s1 + '\n' + blocks[k]
+
+    # запись результата в файл
+    with open(r"index.txt", "w") as file:
+        file.write(s1)
+
+
+def dec():
+    # чтение зашифрованного файла
+    s1 = ''
+    with open(r"lines.txt", "r") as file:
+        for line in file:
+            s1 = s1 + str(line.count('_'))
+    print(s1)
+
+
+def main():
+    # "стенография"
+    # sten()
+    dec()
+
+
+if __name__ == "__main__":
+    main()
