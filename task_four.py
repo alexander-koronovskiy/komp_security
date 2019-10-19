@@ -1,11 +1,17 @@
-PHRASE = "скоро выйдет новая часть"
+PHRASE = "скоровыйдетноваячасть"
+
 
 # алгоритм шифрования
 def enc(text):
-    s = list()
+    colomn = list()
     for i in text:
-        s.append(bin(ord(i))[2:].count('1') * '_')
-    return s
+        symbol_bytes = bin(ord(i))[2:]
+        for j in symbol_bytes:
+            if j == '0':
+                colomn.append('')
+            if j == '1':
+                colomn.append('_')
+    return colomn
 
 
 # алгоритм "стенографии"
@@ -49,16 +55,26 @@ def sten():
 
 def dec():
     # чтение зашифрованного файла
-    s1 = ''
-    with open(r"lines.txt", "r") as file:
+    colomn = list()
+    s = ''
+    with open(r"index.txt", "r") as file:
         for line in file:
-            s1 = s1 + str(line.count('_'))
+            colomn.append(line[-2:-1])
+        for j in colomn:
+            if j == '_':
+                s = s + '1'
+            else:
+                s = s + '0'
+        s = s + '0'
+    symbols = list(map(''.join, zip(*[iter(s)] * 11)))
+    s1 = ''
+    for k in range(len(symbols)):
+        s1 = s1 + chr(int(symbols[k], 2))
     print(s1)
 
 
 def main():
-    # "стенография"
-    # sten()
+    sten()
     dec()
 
 
