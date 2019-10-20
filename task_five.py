@@ -1,34 +1,35 @@
+CHARS_SIM = {"а": "a", "с": "c", "е": "e", "о": "o", "р": "p", "у": "y", "х": "x",
+             "А": "A", "В": "B", "С": "C", "Е": "E", "О": "O", "Р": "P", "Х": "X", "Н": "H"}
+PHRASE = "надеюсьвсеработаетправильно"
+
+
+# алгоритм шифрования
 def enc(text):
-    s = list()
+    colomn = ''
     for i in text:
-        s.append(bin(ord(i))[2:].count('0') * 'c')
-    return s
+        symbol_bytes = bin(ord(i))[2:]
+        for j in symbol_bytes:
+            colomn = colomn + str(j)
+    return colomn
 
 
-# чтение исходного текста
+# зашифрованное в двоичном коде сообщение
+s = enc(PHRASE)
+
+# все позиции в тексте с похожими символами
 my_file = open("text.txt")
 text = my_file.read()
 
-# шифрование фразы (т.е. скрытой части текста)
-phrase = text[60:244]
-phrase_crypt = enc(phrase)
-
-# запись шифрованной фразы
-with open(r"lines.txt", "w") as file:
-    file.writelines("%s\n" % line for line in phrase_crypt)
-
-# чтение зашифрованного файла
-s1 = ''
-with open(r"lines.txt", "r") as file:
-    for line in file:
-        s1 = s1 + str(line.count('c'))
-
-# шифрование всего текста
-s2 = ''
+sym = list()    # символы keys()
+p = list()      # позиции символов
+j = 0
 for i in text:
-    s2 = s2 + str(bin(ord(i))[2:].count('0'))
+    j = j + 1
+    if i in CHARS_SIM.keys():
+        sym.append(i)
+        p.append(j)
 
-# поиск подстроки
-i = s2.find(s1)
-j = i + len(s1)
-print(text[i:j])
+# реализовать алгоритм замены
+# позиции keys
+# позиции values
+#
