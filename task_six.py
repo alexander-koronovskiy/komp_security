@@ -23,15 +23,12 @@ def crc32(string):
     return -1 - value
 
 
-# test
-data = (
-    'hello world',
-    '1234',
-    'A long string to test CRC32 functions',
-)
+my_file = open("text_6.txt")
+text = my_file.read()
+# text = 'A long string to test CRC32 functions'
 
-for s in data:
-    b = crc32(s)
-    print(repr(s), '%08x' % (b & 0xffffffff))
+test_b = bytes(text, 'ansi')
+b = crc32(text)
 
-print(repr(data[1]), hex(zlib.crc32(b'A long string to test CRC32 functions'))[2:])
+print('hand-made hash sum: ', '%08x' % (b & 0xffffffff))
+print('python z-lib hash sum: ', hex(zlib.crc32(test_b))[2:])
